@@ -1,0 +1,8 @@
+to start spark
+> spark-shell
+
+to start hadoop
+> hdfs namenode -format
+> start-dfs
+> start-yarn
+> jps
