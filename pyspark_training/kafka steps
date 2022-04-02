@@ -1,0 +1,11 @@
+Start zookeeper using : 
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Start Kafka using : 
+JMX_PORT=8004 bin/kafka-server-start.sh config/server.properties 
+
+
+Start manager using :
+navigate to CMAK/target/universal/cmak-3.0.0.6$
+delete running PID
+bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080
